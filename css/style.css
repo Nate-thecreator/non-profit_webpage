@@ -25,13 +25,17 @@ ul.nav a:hover {
 .grid-container {
     display: grid;
     grid-gap: 10px;
-    grid-template-columns: auto 10% auto;
+    grid-template-columns: auto auto auto;
 }
 .grid-item {
     text-align: center;
     font-size: 30px;
     padding: 20px;
     background-color: burlywood;
+}
+.title-section {
+    grid-column: 2 / span 1;
+    grid-row: 1;
 }
 .navmenu {
     grid-column: 1 / span 3;
@@ -52,8 +56,9 @@ ul.nav a:hover {
     grid-row: 4;
 }
 .fa-twitter {
-    background: #55ACEE;
-    color: white;
+    background: white;
+    color: lightgreen;
+    width: 50px;
   }
   .fa {
     padding: 20px;
