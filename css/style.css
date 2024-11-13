@@ -68,11 +68,16 @@ ul.nav a:hover {
     text-decoration: none;
     border-radius: 50%;
   }
+  .about_us-section {
+    grid-column: 1 / span 2;
+    grid-row: 2;
+}
+
+.table-section {
+    grid-column: 2 / span 3;
+    grid-row: 3;
+}
   .footer-section {
     grid-column: 1 / span 1;
     grid-row: 5;
   }
-.about_us-section {
-    grid-column: 1 / span 2;
-    grid-row: 2;
-}
