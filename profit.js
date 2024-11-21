@@ -25,6 +25,18 @@ document.addEventListener("DOMContentLoaded", function () {
             return;
         }
 
+        if (!organization || !phonenumber) {
+            alert("please fill in your organization and phone number.");
+            event.preventDefault();
+            return;
+        }
+
+        if (!begindate || !enddate) {
+            alert("Please fill out begin and end date.");
+            event.preventDefault();
+            return;
+        }
+
 
         alert(`Thank you, ${fname}! Your form has been submitted.`);
     });
