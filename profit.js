@@ -9,7 +9,7 @@ document.addEventListener("DOMContentLoaded", function () {
         const organization = document.getElementById("organization").value;
         const phonenumber = document.getElementById("phonenumber").value;
         const begindate = document.getElementById("begindate").value;
-        const enddate = document.getElementById("edndate").value;
+        const enddate = document.getElementById("enddate").value;
         const message = document.getElementById("message").value;
 
 
